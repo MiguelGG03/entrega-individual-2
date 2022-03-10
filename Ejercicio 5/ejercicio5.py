@@ -1,7 +1,7 @@
 # Nº DE TAREAS
-n=10
+N=10
 # TABLA DE RELACIONES 
-t=[[0,7],[7,9],[9,4],[4,6],[6,1],[1,3],[3,2],[5,8],[2,5]]
+T=[[0,7],[7,9],[9,4],[4,6],[6,1],[1,3],[3,2],[5,8],[2,5]]
 # TABLA DE CONTROL
 u=[0,0,0,0,0,0,0,0,0,0]
 # TABLA DE RESULTADO
@@ -12,11 +12,11 @@ b=0
 u[0]=1
 # CALCULO CAMINO
 for i in range(0,9):
-    j=t[0]
+    j=T[0]
     x=0
-    while(j[0]!=b and x<=n-3):
+    while(j[0]!=b and x<=N-3):
         x=x+1
-        j=t[x]
+        j=T[x]
     r.append(j[1])
     u[j[1]]=1
     b=j[1]
