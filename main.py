@@ -1,5 +1,6 @@
 from Clases.ejercicio4 import ejercicio4
 from Clases.ejercicio5 import ejercicio5
+from Clases.ejercicio6 import ejercicio6
 
 if __name__=='__main__':
     print('Ejercicio 4:\n')
