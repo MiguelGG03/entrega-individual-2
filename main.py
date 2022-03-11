@@ -17,6 +17,8 @@ def main():
             if(cual=='6'):
                 print('Ejercicio 6:\n')
                 ejercicio6()
+            else:
+                print('Eso no es un 4, un 5 o un 6.')
         if(seguir=='n' or seguir=='N'):
             acabar=True
         else:
