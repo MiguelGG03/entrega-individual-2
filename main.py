@@ -11,10 +11,10 @@ def main():
             if(cual=='4'):
                 print('Ejercicio 4:\n')
                 ejercicio4()
-            if(cual=='5'):
+            elif(cual=='5'):
                 print('Ejercicio 5:\n')
                 ejercicio5()
-            if(cual=='6'):
+            elif(cual=='6'):
                 print('Ejercicio 6:\n')
                 ejercicio6()
             else:
